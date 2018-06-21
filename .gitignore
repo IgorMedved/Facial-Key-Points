@@ -1,0 +1,12 @@
+
+.ipynb_checkpoints/
+__pycache/
+
+*.pt
+!keypoints_model_3_500epoch.pt
+
+1.\ Load\ and\ Visualize\ Data.ipynb
+
+4.\ Fun\ with\ Keypoints.ipynb
+
+*.zip
