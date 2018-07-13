@@ -12,13 +12,22 @@ These applications include: facial tracking, facial pose recognition, facial fil
 
 ![Facial Keypoint Detection][image1]
 
-The project will be broken up into a few main parts in four Python notebooks, **only Notebooks 2 and 3 (and the `models.py` file) will be graded**:
+The project is broken in two notebooks.
 
 
 __Notebook 2__ : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
 
-__Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
+__Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and the Trained CNN
+
+Here is an example of how final system works. The following earlier unseen photo is provided during the test
+
+![ScreenShot](/screenshots/obamastest.png)
 
 
 
+The haarcascade detects boxes around faces on the photograph
+![ScreenShot](/screenshots/haarcascadeobamas.png)
 
+Then each of the detected faces is fed through keypoint detection model trained in notebook 2 with the following results
+![ScreenShot](/screenshots/barackkeypoints.png)
+![ScreenShot](/screenshots/michellkeypoints.png)
